@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/ThemeProvider";
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
@@ -10,7 +10,7 @@ import TestimonialCardOne from '@/components/sections/testimonial/TestimonialCar
 import BlogCardOne from '@/components/sections/blog/BlogCardOne';
 import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
 import FooterBase from '@/components/sections/footer/FooterBase';
-import { BarChart, Briefcase, FolderOpen, Github, Linkedin, Megaphone, MessageSquare, Monitor, Palette, Search, Settings, Target, TrendingUp, Users, Zap } from "lucide-react";
+import { BarChart, Briefcase, FolderOpen, Linkedin, Megaphone, MessageSquare, Monitor, Palette, Search, Settings, Target, TrendingUp, Users, Zap } from "lucide-react";
 
 export default function Home() {
   return (
@@ -156,12 +156,8 @@ export default function Home() {
               imageAlt: "Alex Johnson portrait",
               socialLinks: [
                 {
-                  icon: "Linkedin",
+                  icon: Linkedin,
                   url: "https://linkedin.com"
-                },
-                {
-                  icon: "Github",
-                  url: "https://github.com"
                 }
               ]
             },
@@ -174,12 +170,8 @@ export default function Home() {
               imageAlt: "Sarah Chen portrait",
               socialLinks: [
                 {
-                  icon: "Linkedin",
+                  icon: Linkedin,
                   url: "https://linkedin.com"
-                },
-                {
-                  icon: "Dribbble",
-                  url: "https://dribbble.com"
                 }
               ]
             },
@@ -192,12 +184,8 @@ export default function Home() {
               imageAlt: "Michael Rodriguez portrait",
               socialLinks: [
                 {
-                  icon: "Linkedin",
+                  icon: Linkedin,
                   url: "https://linkedin.com"
-                },
-                {
-                  icon: "Twitter",
-                  url: "https://twitter.com"
                 }
               ]
             }
